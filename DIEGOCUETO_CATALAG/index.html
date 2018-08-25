@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Catalogo</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+
+    <script type="text/javascript" src="js/javascript.js"></script>
+
+</head>
+<body>
+  
+  <header class="cabecera">
+      <h1>CATALOGO DE HERRAMIENTAS      <hr> | El envio es gratis | </h1>
+ 
+  </header>
+  
+   
+   <section id="contenedor">
+      
+       <article id="interno-producto">
+           <h2 id="MartilloSencillo">Martillo Sencillo</h2>
+           <img src="img/1.jpg" alt="" id="img">
+           
+           <span id="$300" class="precio"><sup>$</sup>300 <sub>/.00-MXN</sub></span>
+           <span id="cantidad" class="precio">Disponible:</span>
+
+         <button id="click" class="btn" onclick="guardar()">agregar al carrito</button>
+        
+          
+       </article>
+       
+        <article id="interno-producto">
+          <h2 id="Martillo">Martillo</h2>
+           <img src="img/2.jpg" alt="" id="img2">
+           
+             <span id="$200"class="precio"><sup>$</sup>200<sub>/.00-MXN</sub></span>
+             <span id="cantidad" class="precio">Disponible:</span>
+           
+               <button id="click" class="btn" onclick="guardar1()">agregar al carrito</button>
+       </article>
+       
+        <article id="interno-producto">
+          <h2 id="Martillo_acero">Martillo de acero</h2>
+           <img src="img/2.jpg" alt="" id="img3">
+           
+             <span id="$250" class="precio"><sup>$</sup>250 <sub>/.00-MXN</sub></span>
+              <span id="cantidad" class="precio">Disponible:</span>
+           
+           <button id="click" class="btn" onclick="guardar2()">Agregar al carrito</button>
+       </article>
+       
+        <article id="interno-producto">
+          <h2 id="Motosierra_Stanley">Motosierra-Stanley</h2>
+           <img src="img/4.jpg" alt="" id="img4">
+           
+             <span id="$400" class="precio"><sup>$</sup>400 <sub>/.00-MXN</sub></span>
+              <span id="cantidad" class="precio">Disponible:</span>
+           
+           <button id="click" class="btn" onclick="guardar3()">Agregar al carrito</button>
+       </article>
+       
+        <article id="interno-producto">
+          <h2 id="Garden_machete">Garden-machete</h2>
+           <img src="img/garden-machete.png" alt="" id="img5">
+             <span id="$100" class="precio"><sup>$</sup>100 <sub>/.00-MXN</sub></span>
+              <span id="cantidad" class="precio">Disponible:</span>
+           
+           <button id="click" class="btn" onclick="guardar4()">Agregar al carrito</button>
+       </article>
+    
+       <article id="interno-producto">
+          <h2 id="Motosierra_de_gasolina_Poda">Motosierra-de-gasolina-Poda</h2>
+           <img src="img/MOTOSIERA_de_gasolina_Poda.jpg" alt="" id="img6">
+             <span id="$500" class="precio"><sup>$</sup>500 <sub>/.00-MXN</sub></span>
+              <span id="cantidad" class="precio">Disponible:</span>
+           
+           <button id="click" class="btn" onclick="guardar5()">Agregar al carrito</button>
+       </article>
+       
+        <article id="interno-producto">
+          <h2 id="Motosierra_STIHL">Motosierra-STIHL</h2>
+           <img src="img/motosierra_STIHL.jpg" alt="" id="img7">
+             <span id="$300" class="precio"><sup>$</sup>300 <sub>/.00-MXN</sub></span>
+              <span id="cantidad" class="precio">Disponible:</span>
+           
+           <button id="click" class="btn" onclick="guardar6()">Agregar al carrito</button>
+       </article>
+       
+        <article id="interno-producto">
+          <h2 id="pala_coa_mangoDeMadera">Pala-coa-mangoDeMadera</h2>
+           <img src="img/pala_coa_mangoDeMadera.jpg" alt="" id="img8">
+             <span id="$300" class="precio"><sup>$</sup>300 <sub>/.00-MXN</sub></span>
+              <span id="cantidad" class="precio">Disponible:</span>
+           
+           <button id="click" class="btn" onclick="guardar7()">Agregar al carrito</button>
+       </article>
+       
+        <article id="interno-producto">
+          <h2 id="Serrucho_de_poda_plegable">Serrucho-de-poda-plegable</h2>
+           <img src="img/serrucho_de_poda_plegable.jpg" alt="" id="img9">
+             <span id="$300" class="precio"><sup>$</sup>300 <sub>/.00-MXN</sub></span>
+              <span id="cantidad" class="precio">Disponible:</span>
+           
+           <button id="click" class="btn" onclick="guardar8()">Agregar al carrito</button>
+       </article>
+       
+        <article id="interno-producto">
+          <h2 id="Tramontina_machete">Tramontina-machete</h2>
+           <img src="img/tramontina-machete.jpg" alt="" id="img10">
+             <span id="$300" class="precio"><sup>$</sup>300 <sub>/.00-MXN</sub></span>
+              <span id="cantidad" class="precio">Disponible:</span>
+           
+           <button id="click" class="btn" onclick="guardar9()">Agregar al carrito</button>
+       </article>
+    
+    
+   </section>
+    
+   <section id="tabla">
+   <h3>Carritos De Compras</h3>
+   <table class="tabla">
+      <tr>
+         <td class="tab">Imagen</td>
+         <td class="tab">Nombre Del Producto</td>
+         <td class="tab">Cantidad</td>
+         <td class="tab">Precio</td>
+         <td class="tab">Total</td>          
+      </tr>
+      
+      <table id="tab" ></table>
+      <table id="tab1"></table>
+      <table id="tab2"></table>
+      <table id="tab3"></table>
+      <table id="tab4"></table>
+      <table id="tab5"></table>
+      <table id="tab6"></table>
+      <table id="tab7"></table>
+      <table id="tab8"></table>
+      
+     
+       
+   </table>
+   
+
+    </section>
+    
+ 
+</body>
+</html>
